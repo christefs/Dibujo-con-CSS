@@ -27,33 +27,55 @@ body {
   }
   .eyes {
     position: absolute;
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 28px;
     background: var(--white);
-    top: 45px;
+    top: 55px;
     
-    border-radius: 50%;
+    
   }
   .eye-left {
     
-    left: 38px;
+    left: 32px;
     text-align: center;
-    line-height: 30px;
-    
+    /*line-height: 30px;*/
+    border-radius: 30% 0 50% 50%;
   }
   .eye-right {  
     
-    right: 38px;
+    right: 32px;
     text-align: center;
-    line-height: 30px;
+    /*line-height: 30px;*/
+    border-radius: 0 30% 50% 50%;
         
   }
   .pupil {
-    width: 7px;
-    height: 7px;
+    width: 7.5px;
+    height: 7.5px;
     background: var(--black);
-    display: inline-block;
+    /*display: inline-block;
     line-height: 7px;
-    vertical-align: middle;
-    border-radius: 3px;
+    vertical-align: middle;*/
+    margin: 6px auto;
+    border-radius: 4px;
+  }
+
+  .bottom-face {
+    position: absolute;
+    width: 130px;
+    height: 107px;
+    background: var(--black);
+    top: 92px;
+    border-radius: 0 0 80px 80px;    
+  }
+  
+  .neck {
+    position: absolute;
+
+    width: 100px;
+    height: 60px;
+    background: #F7BCA7;
+    top: 160px;
+
+    left: calc(50% - 50px);
   }
