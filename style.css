@@ -20,7 +20,7 @@ body {
   
   .head {
     width: 130px;
-    height: 200px;
+    height: 250px;
     background: var(--skin);
     border-radius: 65px;
     position: relative;
@@ -63,10 +63,13 @@ body {
   .bottom-face {
     position: absolute;
     width: 130px;
-    height: 107px;
+    height: 159px;
+    line-height: 159px;
     background: var(--black);
     top: 92px;
-    border-radius: 0 0 80px 80px;    
+    border-radius: 0 0 80px 80px;
+    
+    text-align: center;
   }
   
   .neck {
@@ -75,7 +78,24 @@ body {
     width: 100px;
     height: 60px;
     background: #F7BCA7;
-    top: 160px;
+    
+    top: 210px;
 
     left: calc(50% - 50px);
+  }
+  .nose {
+    width: 35px;
+    height: 25px;
+    line-height: 30px;
+    background: var(--skin);
+
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 0 0 20px 20px;
+  }
+  .mouth {
+    background: var(--dark-red);
+    width: 50px;
+    height: 40px;
+    margin: -120px auto;
   }
