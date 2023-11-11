@@ -67,7 +67,7 @@ body {
     line-height: 159px;
     background: var(--black);
     top: 92px;
-    border-radius: 0 0 80px 80px;
+    border-radius: 60px 60px 80px 80px;
     
     text-align: center;
   }
@@ -95,7 +95,28 @@ body {
   }
   .mouth {
     background: var(--dark-red);
-    width: 50px;
+    width: 55px;
     height: 40px;
     margin: -120px auto;
+
+    text-align: left;
+    line-height: 30px;
+    border-radius: 0 0 30px 30px;
+  }
+  
+  .teeth {
+    background: var(--white);
+    width: 40px;
+    height: 10px;
+    border-radius: 0 0 7px 0;
+  }
+  .tongue {
+    background: var(--red);
+    width: 29px;
+    height: 15px;
+    
+    display: inline-block;
+    vertical-align: bottom;
+    border-radius: 0 8px 2px 16px;
+    margin-left: 4.5px;
   }
